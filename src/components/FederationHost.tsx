@@ -20,7 +20,7 @@ import {
 } from "lucide-react";
 
 // Flag to enable/disable remote federation
-const USE_REMOTE_FEDERATION = true; // Set to true when remotes are running
+const USE_REMOTE_FEDERATION = false; // Set to true when remotes are running
 
 // Dynamic imports for remote modules with fallbacks
 const RemoteProductCatalog = lazy(() => {
